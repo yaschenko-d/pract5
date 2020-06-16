@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+<header class="header"><p><div logo><img src="C:\PhpstormProjects\test_website\assets\img\logo.png" height="80 px" weigth="80 px" /></div></p></header>
+<div class="container">
+    <main class="center column">
+<div class="slider">
+  	<div class="item">
+        <img src="img/slide1.jpg" alt="Первый слайд">
+        <div class="slideText">Заголовок слайда 1</div>
+    </div>
+
+    <div class="item">
+        <img src="img/slide2.jpg" alt="Второй слайд">
+        <div class="slideText">Заголовок слайда 2</div>
+    </div>
+
+    <div class="item">
+        <img src="img/slide3.jpg" alt="Третий слайд">
+        <div class="slideText">Заголовок слайда 3</div>
+    </div>
+
+  	<a class="prev" onclick="minusSlide()">&#10094;</a>
+  	<a class="next" onclick="plusSlide()">&#10095;</a>
+</div>
+<br>
+
+<div class="slider-dots">
+	<span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+  	<span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+  	<span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+</div>
+	
+<script src="script.js"></script>
+    </main>
+    <nav class="left column">
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="file:///C:/PhpstormProjects/test_website/about.html">About</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/contact.html">Contact</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/media.html">Media</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/table.html">Table</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/slider.html">Slider</a></li>
+        </ul>
+    </nav>
+    <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+    </div>
+</div>
+<div class="footer-wrapper">
+    <footer class="footer"><p><div logo><img src="C:\PhpstormProjects\test_website\assets\img\logo.png" height="80 px" weigth="80 px" /></div></p></footer>
+</div>
+
+</body>
+</html>

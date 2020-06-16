@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="C:\PhpstormProjects\test_website\assets\css\layout.css">
+    <link rel="stylesheet" href="C:\PhpstormProjects\test_website\assets\css\layout2.css">
+</head>
+<body>
+<header class="header"><p><div logo><img src="C:\PhpstormProjects\test_website\assets\img\logo.png" height="80 px" weigth="80 px" /></div></p></header>
+
+<div class="container">
+    <main class="center column">
+        <p>
+            <h1>Contact</h1>
+            <div style="display: inline-block;">
+                <h2>User details</h2>
+                <p style="color:gray"><small> Full name*</small></p>
+                <p><input maxlength="25" size="40" placeholder="Name"></p>
+                <p style="color:gray"><small> Your birthday* </small></p>
+                <input type="date" name="bday">
+                <br></br>
+                <p ><select size="1">
+                    <option selected disabled>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select></p>
+                <div style="display: inline-block;">
+                    <select size="1">
+                        <option selected disabled>Country</option>
+                        <option>Ukraine</option>
+                        <option>Another</option>
+                    </select>
+                    <br></br>
+                </div>
+                <div style="display: inline-block;">
+                    <input maxlength="15" size="20" placeholder="Phone number">
+                    <p style="font-size:8px;" align="justify">Mobile: 094 231 234 Fixed: 2123 1234</p>
+                </div>
+                <p style="color:gray"><small> Bio</small></p>
+                <textarea rows="6" cols="40" name="Bio" placeholder="Tell us about yourself..."></textarea>
+
+                <p><input type = "submit" value = "submit" anabled></p>
+                <br>
+            </div>
+            <div style="display: inline-block;">
+                <h2>Account details</h2>
+                <br></br>
+                <input maxlength="25" size="40" placeholder="Username*">
+                <br></br>
+                <p><input maxlength="25" size="40" placeholder="Email"></p>
+                <br></br>
+                <p><input maxlength="25" size="40" placeholder="Password"></p>
+                <br></br>
+                <p><input maxlength="25" size="40" placeholder="Confirm password"></p>
+                <br></br>
+                <p><input type="checkbox" name="option" value="a1">I accept terms and conditions</p>
+                <p><input type = "submit" value = "submit"></p>
+                <br>
+            </div>
+        </article>
+    </main>
+    <nav class="left column">
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="file:///C:/PhpstormProjects/test_website/index.html#file:C:/PhpstormProjects/test_website/about.html">Main</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/about.html">About</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/media.html">Media</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/table.html">Table</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/slider.html">Slider</a></li>
+        </ul>
+    </nav>
+    <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+    </div>
+</div>
+<div class="footer-wrapper">
+    <footer class="footer"><p><div logo><img src="C:\PhpstormProjects\test_website\assets\img\logo.png" height="80 px" weigth="80 px" /></div></p></footer>
+</div>
+</body>
+</html>

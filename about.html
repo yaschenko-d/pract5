@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="C:\PhpstormProjects\test_website\assets\css\layout.css">
+</head>
+<body>
+<header class="header"><p><div logo><img src="C:\PhpstormProjects\test_website\assets\img\logo.png" height="80 px" weigth="80 px" /></div></p></header>
+
+<div class="container">
+    <main class="center column">
+        <article>
+            <h1>About</h1>
+            <p></p>
+            <p>What is Web Programming? Programming is the intricate <strong>art of telling a computer what to do</strong>. It is giving written instructions in a logical manner that the computer can understand. Essentially, you give the computer small steps of instructions, and the computer goes down the list, doing each one in order. <strong>Programming allows you to make new software</strong> and have the computer do new things. Web site programming is the same except you write applications or web pages that are used by a web browser.</p>
+
+            <p>The good news is that web site programming can be easy! This page will help you understand, what web programming is and why you might want to do it. Web programming is the practice of writing applications that run on a web server and can be used by many different people. Many applications work really well as a web application. Some examples of popular web applications include Flickr, Gmail, and Google Maps. You are able to upload and view pictures, send email and lookup directions using these web applications and they are all made possible through web site programming.</p>
+
+            <h2>How does web site programming work?</h2>
+
+            <p>Basically, you will embed code within your normal HTML pages. Something like this:</p>
+
+            <p><code>&lt;html&gt;<br />
+                &lt;head&gt;<br />
+                &lt;title&gt;My Web Page&lt;/title&gt;<br />
+                &lt;/head&gt;<br />
+                &lt;body&gt;<br />
+                <strong>&lt;?php<br />
+                    print date("Y/m/d");<br />
+                    ?&gt;</strong><br />
+                &lt;/body&gt;<br />
+                &lt;/html&gt;</code></p>
+
+            <p>When you access your page with a browser, your web server will parse, or read through, your HTML page line by line and when it comes across a programming language, it will execute the code. In this case, it writes out the current date on the page and then sends the page back to your web browser. Your web browser just sees a normal web page with a date but the server will generate a different web page when it is loaded on a different date. Dynamic!</p>
+
+            <h2>What are the benefits of web programming?</h2>
+
+            <p>Web programming allows you to turn a simple, static HTML page into a dynamic masterpiece. It allows others to interact with your web site and use the application on any computer with Internet access. It is often easier than programming applications that will run directly on the computer. It allows you to make or edit anything dynamic on your website, such as a forum, a guestbook, or even a form submission.</p>
+
+            <h2>What are web programming languages?</h2>
+
+            <p>All web programming is done with web programming languages. These languages can include static technologies like HTML, XHTML, CSS, JavaScript, and XML. However, most web site programming is done using server-side web programming languages. This code runs on the server and then gives static information back to the web browser. The most popular web programming languages are: PHP, ASP.NET, Ruby on Rails, Perl, ASP classic, Python, and JSP. To learn more about a particular web programming language, select the language below:</p>
+
+            <p><ul class="faqsList"><li><a href="learn-about-php.html">Learn about PHP</a></li>
+            <li><a href="learn-about-asp.net.html">Learn about ASP.NET</a></li>
+            <li><a href="learn-about-ruby-on-rails.html">Learn about Ruby on Rails</a></li>
+            <li><a href="learn-about-perl.html">Learn about Perl</a></li>
+            <li><a href="learn-about-asp.html">Learn about ASP</a></li>
+            <li><a href="learn-about-cgi.html">Learn about CGI</a></li>
+            <li><a href="learn-about-python.html">Learn about Python</a></li>
+            <li><a href="learn-about-jsp.html">Learn about JSP</a></li>
+        </ul></p>
+
+            <p>If you are interesting in learning how to do web programming, we recommend you visit the <a href="http://www.w3schools.com/">web site programming sections of W3 Schools</a>, learn about <a href="http://www.devshed.com/">web programming languages at Dev Shed, </a>or <a href="http://www.sitepoint.com/">ask "what is web programming" at SitePoint’s forums</a>. You can also check out one of these books from Amazon:</p>
+
+            <p>Shared Web Hosting is a great way to get started hosting your own web site. View our comparison of the best <a href="best-shared-web-hosting.html">Shared Web Hosting</a>. You can also look at the <a href="best-php-hosting.html">Best PHP Hosting</a>, <a href="best-asp.net-web-hosting.html">Best ASP.NET Web Hosting</a>, <a href="">Best Python Web Hosting</a>, <a href="">Best Perl Web Hosting</a>, <a href="best-asp-hosting.html">Best ASP Hosting</a>, and <a href="">Best Ruby On Rails Hosting</a>.</p>
+
+            <p><div id="commentsAnchor">
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'hostshopper'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div></p>
+
+        </article>
+    </main>
+    <nav class="left column">
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="file:///C:/PhpstormProjects/test_website/index.html#file:C:/PhpstormProjects/test_website/about.html">Main</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/contact.html">Contact</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/media.html">Media</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/table.html">Table</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/slider.html">Slider</a></li>
+        </ul>
+    </nav>
+    <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+    </div>
+</div>
+<div class="footer-wrapper">
+    <footer class="footer"><p><div logo><img src="C:\PhpstormProjects\test_website\assets\img\logo.png" height="80 px" weigth="80 px" /></div></p></footer>
+</div>
+</body>
+</html>

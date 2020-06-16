@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="C:\PhpstormProjects\test_website\assets\css\layout.css">
+    <link rel="stylesheet" href="C:\PhpstormProjects\test_website\assets\css\layout1.css">
+    <script src="slider.js"></script>
+</head>
+<body>
+<header class="header"><p><div logo><img src="assets/img/logo.png" height="80 px" weigth="80 px" /></div></p></header>
+
+<div class="container">
+    <main class="center column">
+            <article>
+            <h1>Slider</h1>
+                <p></p>
+                <div id="slider-wrap">
+                    <center style="color:white">
+                        <div id="mySlider">
+                        </div>
+                    </center>
+                    <div id="sliderNav">
+                        <div id="sliderPrev" onclick="prevSlide();"><img src="assets\img\prev.png"></div>
+                        <div id="sliderNext" onclick="nextSlide();"><img src="assets\img\next.png"></div>
+                        <div id="slider" style="margin-left:365px">
+                            <div style="display:inlineblock;">
+                                <div id="1" style = "display:inlineblock; position:relative; top: 120px;" onclick="setSlide(1);"><img style="display:inlineblock;"	 src="" height="25px" width="25px"></div>
+                                <div style = "display:inlineblock; position:relative; top: 89px; left: 150px;" onclick="setSlide(2);"><img style="display:inlineblock;" id="2" src="" height="25px" width="25px"></div>
+                                <div style = "display:inlineblock; position:relative; top: 58px; left: 300px;" onclick="setSlide(3);"><img style="display:inlineblock;" id="3" src="" height="25px" width="25px"></div>
+                            </div>
+                        </div>
+                        <script src="assets/js/slider.js"></script>
+                    </div>
+        </article>
+    </main>
+    <nav class="left column">
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="file:///C:/PhpstormProjects/test_website/index.html#file:C:/PhpstormProjects/test_website/about.html">Main</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/contact.html">Contact</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/media.html">Media</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/table.html">Table</a></li>
+            <li><a href="file:///C:/PhpstormProjects/test_website/about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+    </div>
+</div>
+<div class="footer-wrapper">
+    <footer class="footer"><p><div logo><img src="C:\PhpstormProjects\test_website\assets\img\logo.png" height="80 px" weigth="80 px" /></div></p></footer>
+</div>
+</body>
+</html>
